@@ -10,3 +10,10 @@ It also uses [bun.sh](https://bun.sh) as toolchain and package manager.
 - `bun preview` - Serve production build
 - `bun lint` - Run ESLint
 - `bun format` - Run Prettier
+
+# How to use it?
+To get started you can use the following command:
+```bash
+bun create Im-Fran/vite-react-ts-tailwind-router-template <project-name>
+```
+This will clone this repo, replace the name of the project in package.json and install bun dependencies. (Shouldn't take more than a few seconds if you have a fast connection)
